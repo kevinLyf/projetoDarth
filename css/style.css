@@ -13,7 +13,6 @@
 .container {
     background-color: #000;
     width: 900px;
-    height: 100vh;
 }
 .navbar {
     display: flex;
