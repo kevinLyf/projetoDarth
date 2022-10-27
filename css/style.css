@@ -10,12 +10,10 @@
     font-family: "Poppins", sans-serif;
     color: #FAFAFA;
 }
-body {
-}
 .container {
     background-color: #000;
     width: 900px;
-    border: 1px solidred;
+    height: 100vh;
 }
 .navbar {
     display: flex;
@@ -35,4 +33,8 @@ body {
     text-transform: uppercase;
     font-size: 14pt;
     font-weight: 500;
+}
+
+.footer p{
+    text-align: center;
 }
