@@ -10,7 +10,29 @@
     font-family: "Poppins", sans-serif;
     color: #FAFAFA;
 }
+body {
+}
 .container {
+    background-color: #000;
     width: 900px;
-    border: 1px solid #000;
+    border: 1px solidred;
+}
+.navbar {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #708090;
+    width: 100%;
+    height: 4rem;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link {
+    margin: 0 2rem;
+    text-transform: uppercase;
+    font-size: 14pt;
+    font-weight: 500;
 }
